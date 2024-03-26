@@ -6,7 +6,7 @@ Credit to the original repo [here](https://github.com/lmnt-com/diffwave).
 
 ## Install
 
-(First install [Pytorch](https://pytorch.org), GPU version recommended!)
+First install [Pytorch](https://pytorch.org), GPU version recommended! Also you need [Python](https://www.python.org) of course! Version 3.10.X is recommended for dillwave.
 
 As a package:
 ```bash
