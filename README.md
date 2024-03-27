@@ -41,4 +41,4 @@ You should expect to hear intelligible (but noisy) speech by ~8k steps (~1.5h on
 python -m dillwave.inference /path/to/model --spectrogram_path /path/to/spectrogram -o output.wav [--fast]
 ```
 
-I plan to release a pretrained model if it turns out good enough! :)
+Pretrained models are going to be released [here](https://github.com/dillfrescott/dillwave-model).
