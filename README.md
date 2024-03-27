@@ -34,8 +34,6 @@ python -m dillwave /path/to/model/dir /path/to/dir/containing/wavs
 tensorboard --logdir /path/to/model/dir --bind_all
 ```
 
-You should expect to hear intelligible (but noisy) speech by ~8k steps (~1.5h on a 2080 Ti).
-
 ### Inference CLI
 ```bash
 python -m dillwave.inference /path/to/model --spectrogram_path /path/to/spectrogram -o output.wav [--fast]
