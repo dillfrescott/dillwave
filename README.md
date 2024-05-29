@@ -33,7 +33,7 @@ You need [Git](https://git-scm.com) installed for either of these "From GitHub" 
 ### Training
 
 ```bash
-python -m dillwave.preprocess /path/to/dir/containing/wavs # 48000hz, 1 channel
+python -m dillwave.preprocess /path/to/dir/containing/wavs # 48000hz, 1 channel, (8 seconds length recommended for each clip)
 python -m dillwave /path/to/model/dir /path/to/dir/containing/wavs
 
 # in another shell to monitor training progress:
