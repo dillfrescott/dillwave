@@ -4,6 +4,12 @@ DillWave is a fast, high-quality neural vocoder and waveform synthesizer. It sta
 
 Credit to the original repo [here](https://github.com/lmnt-com/diffwave).
 
+## Recommended Requirements
+
+An Nvidia GPU that is somewhere in the RTX 30XX-40XX range.
+
+For training it's recommended to have 16+ GB of VRAM. For inference its recommended to have at least 4 GB of VRAM.
+
 ## Install
 
 First install [Pytorch](https://pytorch.org), GPU version recommended! Also you need [Python](https://www.python.org) of course! Version 3.10.X is recommended for dillwave.
