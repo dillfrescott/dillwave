@@ -34,8 +34,8 @@ class AttrDict(dict):
 
 params = AttrDict(
     # Training params
-    batch_size=16,
-    learning_rate=2e-4,
+    batch_size=32,
+    learning_rate=0.0004,
     max_grad_norm=None,
 
     # Data params
@@ -46,8 +46,8 @@ params = AttrDict(
     crop_mel_frames=62,  # Probably an error in paper.
 
     # Model params
-    residual_layers=50,
-    residual_channels=80,
+    residual_layers=35,
+    residual_channels=50,
     dilation_cycle_length=10,
     unconditional = False,
     noise_schedule=np.linspace(1e-4, 0.05, 50).tolist(),
