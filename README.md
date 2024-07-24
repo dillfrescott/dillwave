@@ -14,11 +14,6 @@ For training it's recommended to have 16+ GB of VRAM. For inference its recommen
 
 First install [Pytorch](https://pytorch.org), GPU version recommended! Also you need [Python](https://www.python.org) of course! Version 3.10.X is recommended for dillwave.
 
-As a package:
-```bash
-pip install dillwave
-```
-
 From GitHub:
 ```bash
 git clone https://github.com/dillfrescott/dillwave
