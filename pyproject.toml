@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "dillwave"
+version = "1.1.0"
+description = "dillwave"
+authors = ["Cross Nastasi <cross@dill.moe>"]
+repository = "https://dill.moe"
+license = "Apache 2.0"
+keywords = ["dillwave", "machine learning", "neural vocoder", "tts", "speech"]
+readme = "README.md"
+packages = [{include = "dillwave", from = "src"}]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.5,<3.12"
+numpy = "*"
+torch = "*"
+torchaudio = "*"
+tqdm = "*"
+tensorboard = "*"
+packaging = "*"
+soundfile = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
