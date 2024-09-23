@@ -39,5 +39,3 @@ tensorboard --logdir /path/to/model/dir --bind_all
 ```bash
 python -m dillwave.inference /path/to/model --spectrogram_path /path/to/spectrogram -o output.wav [--fast]
 ```
-
-Pretrained models are going to be released [here](https://github.com/dillfrescott/dillwave-model).
